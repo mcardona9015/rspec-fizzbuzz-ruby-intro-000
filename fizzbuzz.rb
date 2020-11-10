@@ -12,4 +12,5 @@ def fizzbuzz(i)
   end
 end
 
-fizzbuzz(3)
+t = fizzbuzz(15)
+puts t
