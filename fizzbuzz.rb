@@ -3,13 +3,10 @@
 def fizzbuzz(i)
   if i % 3 == 0
     "Fizz"
-  end
   elsif i % 5 == 0
     "Buzz"
-  end
   elsif i % 3 == 0 && i % 5 == 0
     "FizzBuzz"
-  end
   else
     nil
   end
